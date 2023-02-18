@@ -56,7 +56,7 @@ class Card {
   }
 }
 
-function freshDeck() {
+function freshDeck() { https://github.com/p8nberger/War-Card-Game-Working.git
   return SUITS.flatMap(suit => {
     return VALUES.map(value => {
       return new Card(suit, value)
